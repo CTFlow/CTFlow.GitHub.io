@@ -1,0 +1,228 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+.conten{
+	background-image: url(../img/1.jpg);
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.conten:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	opacity: 0.8;
+}
+
+a:hover{
+	color:#af0909e3;
+}
+.social-container .fab:hover{
+	color:#af0909e3;
+}
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+}
+
+
+ .icon-block {
+	padding: 0 15px;
+  }
+  .icon-block .material-icons {
+	  font-size: inherit;
+  }
+  .slider .btn{
+	margin-top: 20px;
+	padding:0 50px;
+	border-radius: 10px;
+  
+  }
+  .footer-text{
+	font-size: 20px;
+  }
+  
+  .social-container{
+	width: 100%;
+	height: 100px;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .social-container a{
+	color:#ffff;
+	font-size: 35px;
+	margin:0px 20px;
+  }
+.color-hover{
+	color:#af0909e3;
+}
+
+p{
+
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Rambla', sans-serif;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Encode Sans', sans-serif;
+color: grey;
+}
+.light{
+	text-align:center;
+}
+ h1 {
+ 	font-family: 'Encode Sans', sans-serif;
+ 	font-size: 	40px;
+ }
+
+ 
+@media screen and (max-width:992px){
+ 	h1{
+ 		font-size: 37px;
+ 	}
+
+ 	h5{
+ 		font-size: 34px;
+ 	}
+ 	p{
+ 		font-size: 20px;
+ 	}
+
+ 	.conten p{
+ 		font-size: 18px;
+ 	}
+ 	
+ 	
+ }
+ @media screen and (max-width:600px){
+ 	h1{
+ 		font-size: 20px;
+ 	}
+
+ 	h5{
+ 		font-size: 12px;
+ 	}
+ 	p{
+ 		font-size: 15px;
+ 	}
+
+ 	.icon-block .light{
+ 		font-size: 15px;
+ 	}
+ 	img {
+ 		height: 80px;
+ 		width: 80px;
+ 		margin: 20px;
+	padding: 2px;
+	margin-top: auto;
+	margin-bottom: auto;
+	box-sizing: border-box;
+ 	}
+ 	.cf{
+ 			
+ 		position: absolute;
+
+ 		
+ 	}
+ 	
+ }
+
+@media screen and (max-width:302px){
+ 	h1{
+ 		font-size: 20px;
+
+ 		}
+ 	h5{
+ 		font-size: 18px;
+ 	}
+ 	img {
+ 		height: 53px;
+ 		width: 53px;
+ 		margin-top: 20px;
+
+ 	}
+ 	.cf{
+ 		position: absolute;
+ 		font-size: 15px;
+ 	}
+	}
+	 @media screen and (max-width:246px){
+	 	img {
+ 		height: 45px;
+ 		width: 45px;
+ 		margin-left: 	30px;
+	padding: 2px;
+	margin-top: 28px;
+	box-sizing: border-box;
+ 	}
+ 	.cf{
+ 		position: absolute;
+ 		
+ 	}
+ }
+ @media screen and (max-width:196px){
+ 	h1{
+ 		font-size: 10px;
+ 	}
+ 	h5{
+ 		font-size: 9px;
+ 	}
+ 	p{
+ 		font-size: 7px;
+ 	}
+ 	.icon-block .light{
+ 		font-size: 7px;
+ 	}
+ 	#logo-container .material-icons{
+ 		position: absolute;
+ 	}
+ 	img {
+ 		height: 45px;
+ 		width: 45px;
+ 		margin-left: 	0px;
+	padding: 2px;
+	margin-top: 28px;
+	box-sizing: border-box;
+
+ 	}
+ 	.cf{
+ 		position: absolute;
+
+ 		
+ 	}
+
+ }
+   @media screen and (max-width:196px){
+ 	h1, h5, .icon-block .light{
+ 		font-size: 7px;
+ 		text-align: center;
+ 	}
+ 
+ }
+  @media screen and (max-width:86px){
+ 	
+ 	img {
+ 		height: 50px;
+ 		width: 50px;
+ 		margin: 20px;
+	padding: 2px;
+	margin-top: 25px;
+	margin-left: 0px;
+	box-sizing: border-box;
+ 	}
