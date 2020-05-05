@@ -107,7 +107,9 @@ color: grey;
  	.conten p{
  		font-size: 18px;
  	}
- 	
+ 	.conten h5{
+		font-size: 25px;
+ 	};
  	
  }
  @media screen and (max-width:600px){
